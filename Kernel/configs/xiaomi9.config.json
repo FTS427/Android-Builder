@@ -1,17 +1,16 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi9KernelPoweredBySeparate",
-      "repo": "https://github.com/Separatee/AllinOneKernel",
-      "branch": "main",
-      "device": "cepheus",
-      "defconfig": "cepheus_defconfig"
+      "name": "lineage",
+      "repo": "https://github.com/FTS427/android_kernel_lenovo_x306x-10",
+      "branch": "lineage-17.1",
+      "device": "amar_row_lte",
+      "defconfig": "amar_row_lte_defconfig"
     },
     "toolchains": [
       {
         "name": "proton-clang",
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
         "binaryEnv": ["./bin"]
       }
     ],
