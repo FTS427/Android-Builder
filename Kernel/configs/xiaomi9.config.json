@@ -10,7 +10,8 @@
     "toolchains": [
       {
         "name": "clang",
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+        "repo": "https://github.com/Cyborg2017/prebuilts_clang_host_linux-x86_clang-r353983c",
+        "branch": "master",
         "binaryEnv": ["./bin"]
       },
       {
