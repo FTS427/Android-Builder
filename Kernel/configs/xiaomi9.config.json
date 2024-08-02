@@ -16,7 +16,8 @@
       },
       {
         "name": "gcc",
-        "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/heads/android10-release.tar.gz",
+        "repo": "https://github.com/FTS427/platform_prebuilts_gcc",
+        "branch": "main",
         "binaryEnv": ["./bin"]
       }
     ],
