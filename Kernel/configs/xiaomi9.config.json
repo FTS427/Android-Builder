@@ -16,8 +16,7 @@
       },
       {
         "name": "gcc",
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
-        "branch": "lineage-17.1",
+        "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/heads/android10-release.tar.gz",
         "binaryEnv": ["./bin"]
       }
     ],
@@ -26,8 +25,7 @@
       "ARCH": "arm64",
       "CC": "clang",
       "externalCommands": {
-        "CROSS_COMPILE": "gcc/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "gcc/bin/arm-linux-gnueabi-",
+        "CROSS_COMPILE": "gcc/bin/aarch64-linux-android-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-"
       }
     },
