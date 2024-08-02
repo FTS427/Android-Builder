@@ -31,8 +31,12 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
-      "release": true
+      "use": true,
+      "release": true,
+      "custom": {
+        "repo": "https://github.com//FTS427/AnyKernel3",
+        "branch": "main"
+      }
     },
     "enableKernelSU": true,
     "enableLXC": false
