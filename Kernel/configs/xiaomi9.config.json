@@ -35,7 +35,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com//FTS427/AnyKernel3",
-        "branch": "main"
+        "branch": "master"
       }
     },
     "enableKernelSU": true,
